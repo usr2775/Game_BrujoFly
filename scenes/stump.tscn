@@ -1,7 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://btdxpemlmwebw"]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_75udt"]
-load_path = "res://.godot/imported/stump.png-6bf9e4892733b564aec3e342e1a8d2b0.ctex"
+[ext_resource type="Texture2D" uid="uid://vyxcraglxqyu" path="res://assets/elementos/stump.png" id="1_kcqu7"]
 
 [node name="Stump" type="Area2D"]
 position = Vector2(140, 446)
@@ -11,7 +10,7 @@ texture_filter = 1
 position = Vector2(88.3254, -432.107)
 rotation = -3.18348
 scale = Vector2(8.00573, 7.59458)
-texture = SubResource("CompressedTexture2D_75udt")
+texture = ExtResource("1_kcqu7")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 position = Vector2(27.8213, -483.383)
