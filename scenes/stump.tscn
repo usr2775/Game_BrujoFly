@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://btdxpemlmwebw"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_75udt"]
+load_path = "res://.godot/imported/stump.png-6bf9e4892733b564aec3e342e1a8d2b0.ctex"
+
+[node name="Stump" type="Area2D"]
+position = Vector2(140, 446)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(88.3254, -432.107)
+rotation = -3.18348
+scale = Vector2(8.00573, 7.59458)
+texture = SubResource("CompressedTexture2D_75udt")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(27.8213, -483.383)
+rotation = -3.0997
+scale = Vector2(4.6134, 3.89388)
+polygon = PackedVector2Array(24.7466, 13.2234, 6.2922, 14.2216, -0.712814, 14.1625, -42.5209, 22.8795, -29.2514, -14.3269, -5.792, -35.0891, 6.98743, -39.5701, 9.11395, -15.1291)
